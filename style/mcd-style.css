@@ -1,0 +1,461 @@
+
+/*для вскей страницы*/
+body{
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ECECEC;
+}
+/*голова с навигацией*/
+header{
+    position: sticky;
+    top: 0;
+    z-index: 6;
+    box-shadow: 0px 1px 10px #ececec;
+}
+header nav{
+    height: 100px;
+    border-bottom: 1px solid #F5F5F5;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+
+}
+.logo {
+    margin-left: 10%;
+}
+.search{
+    width: 500px;
+    height: 30px;
+    border-radius: 4px;
+    background-image: url(../mcd-img/adress.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 25px;
+    margin-left: 10%;
+}
+.enter-butt{
+    background-color: #EF781A;
+    margin-left: 20%;
+}
+.kosh-butt{
+    background-color: #00D008;
+    margin-left: 1%;
+}
+/*второстепенный хедер с названием*/
+.web-name{
+    background-color: #fff;
+    height: 60px;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0px 9px 18px rgba(0, 0, 0, 0.25);
+}
+.name{
+    font-size: 36px;
+    font-weight: 800;
+    margin-left: 10%;
+}
+.main{
+    background-color: #ECECEC;
+}
+/*навигация меню карт*/
+.bar{
+    background-color: #ECECEC;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+.bar ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #7B7B7B;
+}
+.bar ul li{
+    padding: 15px;
+}
+.bar ul li:hover{
+    background-color: #C4C4C4;
+    border-radius: 4px;
+}
+/*окно корзины*/
+.storage{
+    position: fixed;
+    left: 70%;
+    width: 400px;
+    height: 315px;
+    border: 1px solid #ECECEC;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.in-storage{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    margin-left: 49px;
+    margin-top: 25px;
+}
+.order{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+}
+.order li{
+    color: #979797;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: left;
+}
+.plus{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: -65px;
+    margin-right: 50px;
+}
+.plus svg{
+    padding: 5px;
+}
+.price{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 0;
+}
+.deliver{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+.deliver h2{
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+}
+.order-butt{
+    background-color: #EF781A;
+    width: 300px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.card-menu-one,.card-menu-two{
+    background-color: #ECECEC;
+    
+}
+/*крайний подвал*/
+.dark{
+    height: 100px;
+    background: linear-gradient(91.41deg, #323232 25.4%, #000000 75.33%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 0 15px black;
+}
+.about-us{
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #fff;
+}
+.icon{
+    list-style: none;
+    display: flex;
+}
+.dark ul li{
+    margin-top: 10px;
+    padding: 15px;
+}
+.about-us li:hover{
+    border-bottom: 1px solid #979797;
+}
+/*заголовок между видами меню карт*/
+h1{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 10%;
+    padding: 10px;
+}
+/*первая карта и инструкции к ней*/
+.card-one{
+    display: inline-block;
+    width: 230px;
+    height: 275px;
+    background-color: #fff;
+    background-image: url(../mcd-img/big\ tasti.png);
+    background-repeat: no-repeat;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-left: 8%;
+}
+.h2-card{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 160px;
+    margin-left: 25px;
+}
+.title{
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #A2A2A2;
+    width: 154px;
+    margin-left: 25px;
+}
+.flex-price{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    visibility: visible;
+}
+.in-basket{
+    width: 113px;
+    height: 35px;
+    background-color: #EF781A;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-top: -30px;
+    visibility: hidden;
+}
+.card-one:hover .price-in-card{
+    visibility: hidden;
+} 
+.card-one:hover .in-basket{
+    visibility: visible;
+}
+.heart:active{
+    background-image: url(../mcd-img/green\ heart.png);
+    background-repeat: no-repeat;
+    background-position-y: 3px;
+}
+
+/*вторая с карта*/
+
+.card-two{
+    display: inline-block;
+    width: 230px;
+    height: 275px;
+    background-color: #fff;
+    background-image: url(../mcd-img/rolli.png);
+    background-repeat: no-repeat;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-left: 3%;
+}
+.h2-card{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 160px;
+    margin-left: 25px;
+}
+.title{
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #A2A2A2;
+    width: 154px;
+    margin-left: 25px;
+}
+.flex-price{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    visibility: visible;
+}
+.in-basket{
+    width: 113px;
+    height: 35px;
+    background-color: #EF781A;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-top: -30px;
+    visibility: hidden;
+}
+.card-two:hover .price-in-card{
+    visibility: hidden;
+} 
+.card-two:hover .in-basket{
+    visibility: visible;
+}
+.heart:active{
+    background-image: url(../mcd-img/green\ heart.png);
+    background-repeat: no-repeat;
+    background-position-y: 3px;
+}
+
+/*третья карта*/
+
+.card-three{
+    display: inline-block;
+    width: 230px;
+    height: 275px;
+    background-color: #fff;
+    background-image: url(../mcd-img/big\ mac\ menu.png);
+    background-repeat: no-repeat;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-left: 3%;
+}
+.h2-card{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 160px;
+    margin-left: 25px;
+}
+.title{
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #A2A2A2;
+    width: 154px;
+    margin-left: 25px;
+}
+.flex-price{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    visibility: visible;
+}
+.in-basket{
+    width: 113px;
+    height: 35px;
+    background-color: #EF781A;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-top: -30px;
+    visibility: hidden;
+}
+.card-three:hover .price-in-card{
+    visibility: hidden;
+} 
+.card-three:hover .in-basket{
+    visibility: visible;
+}
+.heart:active{
+    background-image: url(../mcd-img/green\ heart.png);
+    background-repeat: no-repeat;
+    background-position-y: 3px;
+}
+
+/*отступы меж карт меню*/
+
+.card-menu-two{
+    margin-top: 3%;
+}
+.card-menu-three{
+    margin-top: 3%;
+}
+.card-menu-four{
+    margin-top: 3%;
+}
+.card-menu-five{
+    margin-top: 3%;
+}
+.card-menu-six{
+    margin-top: 3%;
+}
+
+/* подвал ПАРТНËРОВ*/
+
+.partner-info{
+    margin-top: 5%;
+    box-sizing: border-box;
+    margin-bottom: 10%;
+}
+.partner-table{
+    width: 774px;
+    height: 320px;
+    margin-left: 8%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+h6{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(153, 153, 153, 1);
+}
+.partner-title{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.title-one{
+    padding-top: 5%;
+    margin-left: 10%;
+}
+.title-two,.title-three,.title-four{
+    padding-top: 3%;
+    margin-left: 10%;
+}
+.up-butt{
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+.arrow{
+    margin-left: -62px;
+}
+.up-butt:hover .arrow{
+    display: none;
+    
+}
+.up-butt a{
+    text-decoration: none;
+}
