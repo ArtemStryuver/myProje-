@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>home work 6</title>
+</head>
+
+<body>
+    <h1>Intake Main Flow</h1>
+    <p><span class="star">*</span>Mandatory field</p>
+    <h2>Information</h2>
+
+    <div>
+        <form class="Intake-Type">
+            <label for="Intake-Type">Intake Type<span class="star">* (select)</span></label>
+            <select id="Intake-Type">
+                <option value="first">Referqal</option>
+                <option value="first">unknown</option>
+                <option value="first">unknown</option>
+            </select>
+        </form>
+        <form class="data">
+            <label for="Enrollment">Enrollment Initiation Date (optional)</label>
+            <input type="date" class="calendar">
+        </form>
+    </div>
+
+    <div>
+        <form class="phone">
+            <input type="tel" placeholder="+380">
+            <label for="tel">phone</label>
+        </form>
+        <form class="application">
+            <lable for="app"> Application Category<span class="star">*</span></lable>
+            <input type="text" id="app" list="Appli" placeholder="Child Support">
+            <datalist id="Appli">
+                <option value="Child Support">
+                <option value="unknown">
+                <option value="unknown">
+            </datalist>
+        </form>
+    </div>
+
+    <div>
+        <form class="mail">
+            <label for="mail">email</label>
+            <input type="mail" placeholder="example@mail.com">
+        </form>
+        <form class="data-two">
+            <label for="Enrollment">Enrollment Submission Date (Optional)</label>
+            <input type="date">
+        </form>
+    </div>
+
+    <div>
+        <form class="reg">
+            <label for="Application Reg">Application Registration (Optional)</label>
+            <select id="Application Reg">
+                <option value="first">APP0000116
+                <option value="first">unknown
+                <option value="first">unknown
+            </select>
+        </form>
+    </div>
+
+    <div>
+        <form class="data-three">
+            <label for="date">Additional Information Requested Date (Optional)</label>
+            <input type="date">
+        </form>
+        <form class="check">
+            <label for="check">Purged</label>
+            <input type="checkbox" id="check">
+        </form>
+    </div>
+
+    <div>
+        <form class="numb">
+            <label for="numb">Remaining Days Before Referral is Purged (Optional)</label>
+            <input type="number">
+        </form>
+        <form class="exempt">
+            <label for="exempt">Exempt from Paternity (Optional) (select)</label>
+            <select id="exe">
+                <option value="No">No
+                <option value="Yes">Yes
+            </select>
+        </form>
+    </div>
+
+    <div>
+        <form class="data-four">
+            <label for="date">Fee Payment Date (Optional)</label>
+            <input type="date">
+        </form>
+        <form class="enroll">
+            <label for="enroll">Enrollment Status (Optional)</label>
+            <select name="enroll" id="enroll">
+                <option value="first">Worklisted
+                <option value="first">Unknown
+            </select>
+        </form>
+    </div>
+
+    <div>
+        <form class="check-two">
+            <label for="check-two">Application Fee Processed</label>
+            <input type="checkbox" id="check-two">
+        </form>
+    </div>
+
+    <div class="border"></div>
+
+    <h2 class="h2-two">Maternity Information</h2>
+
+    <div>
+        <form class="are-you">
+            <label for="are-you">Are you requesting child support services for an
+                unborn child?</label>
+            <input type="checkbox" id="are-you">
+        </form>
+        <form class="other">
+            <label for="other">Other known biological parent? (Optional)</label>
+            <select name="other" id="other">
+                <option>None
+                <option>None sec
+                <option>None three
+                <option>None foure
+            </select>
+        </form>
+    </div>
+
+    <div class="border-two"></div>
+
+    <h2 class="h2-three">Official Use</h2>
+
+    <div>
+        <form class="case">
+            <label>Case Category (Optional)</label>
+            <select name="case" id="case">
+                <option>Active IV-A
+                <option>None sec
+                <option>None three
+                <option>None foure
+            </select>
+        </form>
+        <form class="indicator">
+            <label for="indi">IV-D Indicator<span class="star">*</span></label>
+            <select name="indi" id="indi">
+                <option>Non-IV-D
+                <option>None sec
+                <option>None three
+                <option>None foure
+            </select>
+        </form>
+    </div>
+
+    <div>
+        <form class="arrea">
+            <label for="arrea">Arrears Only Indicator (Optional)</label>
+            <select name="arrea" id="arrea">
+                <option>None
+                <option>None sec
+                <option>None three
+                <option>None foure
+            </select>
+        </form>
+        <form class="inter">
+            <label for="inter">Intergovernmental Case Category (Optional)</label>
+            <select name="inter" id="inter">
+                <option>None
+                <option>None sec
+                <option>None three
+                <option>None foure
+            </select>
+        </form>
+    </div>
+
+    <div>
+        <form class="assig">
+            <label for="assig">Assigned County of Ownership (Optional)</label>
+            <select name="assig" id="assig">
+                <option>None
+                <option>None sec
+                <option>None three
+                <option>None foure
+            </select>
+        </form>
+        <form class="intergo">
+            <label for="intergo">Intergovernmental Case Type (Optional)</label>
+            <select name="intergo" id="intego">
+                <option>None
+                <option>None sec
+                <option>None three
+                <option>None foure
+            </select>
+        </form>
+    </div>
+
+    <div>
+        <form class="intercase">
+            <label for="intercase">Intergovermental Case Status (Optional)</label>
+            <select name="intercase" id="intercase">
+                <option>None
+                <option>None sec
+                <option>None three
+                <option>None foure
+            </select>
+        </form>
+        <form class="case-numb">
+            <label for="case-numb">Case Number</label>
+            <input type="search" placeholder="Search Case Number">
+        </form>
+    </div>
+
+    <div>
+        <form class="spec">
+            <label for="spec">Special Handling Indicator for Applicant (Optional)</label>
+            <select name="spec" id="spec">
+                <option>None
+                <option>None sec
+                <option>None three
+                <option>None foure
+            </select>
+        </form>
+        <form class="refe">
+            <label for="refe">Referral Number</label>
+            <input type="search" placeholder="Search Referral Number">
+        </form>
+    </div>
+
+    <div>
+        <form class="spechan">
+            <label for="spechan">Special Handling Indicator for Other Parent
+                (Optional)</label>
+            <select name="spec" id="spec">
+                <option value="none">None</option>
+                <option value="none sec">None sec</option>
+                <option value="none three">None three</option>
+                <option value="none foure">None foure</option>
+            </select>
+        </form>
+    </div>
+
+    <div class="border-three"></div>
+
+    <h2 class="h2-four">System Information</h2>
+
+    <div>
+        <form class="enrolme">
+            <label for="enrolme">Enrollment Taken by User (Optional)</label>
+            <input type="search" placeholder="Search Input">
+        </form>
+        <form class="intakesu">
+            <label for="intakesu">Intake Supervisor (Optional)</label>
+            <input type="search" placeholder="Search">
+        </form>
+    </div>
+
+    <div>
+        <form class="work">
+            <label for="work">Worker (Optional)</label>
+            <input type="search" placeholder="Search Input">
+        </form>
+        <form class="owner">
+            <label for="owner">Owner (Optional)</label>
+            <input type="search" placeholder="Rajaneesh Banal">
+        </form>
+    </div>
+
+    <div class="border-four"></div>
+
+    <div>
+        <form class="butom">
+            <label for="butom"></label>
+            <input type="submit" value="Next">
+        </form>
+    </div>
+
+</body>
+
+</html>
