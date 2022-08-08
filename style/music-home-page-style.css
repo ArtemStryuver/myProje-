@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oswald&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600&family=Oswald&family=Rubik&display=swap');
 
 /*
 font-family: 'Oswald', sans-serif;
@@ -14,6 +14,9 @@ body{
 }
 header,section{
     margin: 0 5%;
+}
+button{
+    padding: 0;
 }
 .nav{
     display: flex;
@@ -42,6 +45,7 @@ header,section{
     border-radius: 10px;
     border-width: 1px;
     transition: .4s;
+    margin-left: 10px;
 }
 .becom{
     margin-left: 10px;
@@ -53,7 +57,7 @@ header,section{
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 16px;
-    padding: 12px 45px;
+    padding: 12px 49px;
     text-decoration: none;
     color: rgba(0, 113, 99, 1);
     cursor: progress;
@@ -256,5 +260,98 @@ h5{
     font-weight: 400;
     font-size: 12px;
 }
-
+.popup-reg{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(171, 171, 171, 0.7);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .6s;
+}
+.popup-log{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(171, 171, 171, 0.7);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .6s;
+}
+.popup-reg:target .popup-content{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+.popup-log:target .popup-content{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+.popup-body{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+.popup-content{
+    background-color: #fff;
+    color: black;
+    max-width: 556px;
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    transform: translate(0px, -100%);
+    opacity: 0;
+    transition: all .6s;
+}
+.popup-h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+.border{
+    border-bottom: 1px solid #E8E8E8;
+    width: 300px;
+}
+.input-btn{
+    margin-top: 15px;
+}
+.close{
+    position: absolute;
+    left: 520px;
+    top: 25px;
+}
+.popup-content input{
+    width: 496px;
+    height: 45px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #E8E8E8;
+}
+.popup-reg:target{
+    opacity: 1;
+    visibility: visible;
+}
+.popup-log:target{
+    opacity: 1;
+    visibility: visible;
+}
+.popup-area{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
 

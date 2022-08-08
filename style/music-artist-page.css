@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600&family=Oswald&family=Rubik&display=swap');
+
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Rubik', sans-serif;
+*/
+body{
+    background-color: #F5F5F5;
+    background-image: url(../music-img/background-line-reverse.png);
+    background-position-y: -376px !important;
+}
+
+.nav-bar{
+    padding-top: 45px;
+    
+}
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    transition: all .1s;
+}
+.nav-bar a:hover{
+    color: rgba(0, 113, 99, 1);
+    border-bottom: 1px solid rgba(0, 113, 99, 1);
+}
+.artist h2{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 36px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+
+}
+.all-card-art{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+.card-art{
+    box-sizing: border-box;
+    width: 360px;
+    height: 524px;
+    border: 1px solid #D6D0C1;
+    border-radius: 5px;
+    background-color: #fff;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 15px;
+    position: relative;
+}
+.foto01{
+    background-image: url(../music-img/foto01.png);
+}
+.foto02{
+    background-image: url(../music-img/foto02.png);
+}
+.foto03{
+    background-image: url(../music-img/foto03.png);
+}
+.foto04{
+    background-image: url(../music-img/foto04.png);
+}
+.foto05{
+    background-image: url(../music-img/foto05.png);
+}
+.foto06{
+    background-image: url(../music-img/foto06.png);
+}
+.nick{
+    padding: 15px;
+    padding-top: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.rate{
+    display: flex;
+    align-items: flex-start;
+}
+.star{
+    padding-left: 5px;
+}
+.border-card{
+    border-bottom: 1px solid #E8E8E8;
+    width: 330px;
+    margin-left: 13px;
+}
+.elips{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    background-image: url(../music-img/heart-white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 290px;
+    margin-top: 25px;
+}
+.elips:hover{
+    background-image: url(../music-img/heart-green.png);
+}
+.info-art{
+    font-weight: 100;
+    padding: 19px;
+}
+.price-and-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.price-and-btn h5{
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+span{
+    font-size: 17px;
+    font-weight: 700;
+    color: rgba(166, 124, 82, 1);
+}
+.price-btn{
+    width: 134px;
+    height: 45px;
+    border-color: rgba(0, 113, 99, 1);
+    background-color: rgba(0, 113, 99, 1);
+    border-radius: 10px;
+    border-width: 1px;
+    transition: .4s;
+}
+.price-btn a{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 12px 45px;
+    text-decoration: none;
+    color: #fff;
+    cursor: progress;
+}
+.price-btn:hover{
+    background-color: #fff;
+}
+.price-btn a:hover{
+    color: rgba(0, 113, 99, 1);
+}
+.selector{
+    display: flex;
+    box-sizing: border-box;
+}
+.btn-first,.btn-second,.btn-arrow{
+    width: 35px;
+    height: 35px;
+    border-color: rgba(0, 113, 99, 1);
+    background-color: #fff;
+    border-width: 1px;
+    margin-right: 10px;
+    transition: .4s;
+}
+.arrow{
+    margin-top: 5px;
+}
+.btn-first a,.btn-second a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    padding: 8px 13px;
+}
+.btn-second a{
+    padding: 8px 12px;
+}
+.btn-arrow a{
+    padding: 12px 10px;
+}
+.btn-selector:hover{
+    background-color: rgba(0, 113, 99, 1);
+}
+.btn-selector a:hover{
+    color: #fff;
+}
+
