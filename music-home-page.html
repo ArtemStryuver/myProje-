@@ -13,8 +13,8 @@
             <img src="./music-img/logo.png" alt="logo" class="logo">
             <input type="search" placeholder="  search..." class="search">
             <div class="btn-all">
-                <button class="log btn" ><a href="#">Login in</a></button>
-                <button class="reg btn"><a href="#">Register</a></button>
+                <button class="log btn" ><a href="#popup-log">Login in</a></button>
+                <button class="reg btn"><a href="#popup-reg">Register</a></button>
             </div>
         </div>
         <div class="box">
@@ -23,8 +23,8 @@
                 <h5 class="subtitle">Select Category</h5>
             </div>
             <div class="btn-box">
-                <button class="find btn" ><a href="#">Find an srtist</a></button>
-                <button class="becom btn"><a href="#">Become seller</a></button>
+                <button class="find btn" ><a href="./music-artist-page.html" target="_blank">Find an srtist</a></button>
+                <button class="becom btn"><a href="./music-artist-page.html" target="_blank">Become seller</a></button>
             </div>
         </div>
     </header>   
@@ -56,6 +56,36 @@
             <a href="#"><img src="./music-img/instagram-icon.png" alt="instagram"></a>
             <a href="#"><img src="./music-img/facebook-icon.png" alt="facebook"></a>
             <a href="#"><img src="./music-img/twitter-icon.png" alt="twitter"></a>
+        </div>
+    </section>
+
+    <section class="all-popup">
+        <div class="popup-reg" id="popup-reg">
+            <a href="#" class="popup-area"></a>
+            <div class="popup-body">
+                <div class="popup-content">
+                    <a href="#"><img class="close" src="./music-img/cancel-icon.png" alt=""></a>
+                    <h1 class="popup-h1">Register</h1>
+                    <div class="border"></div>
+                    <input type="email" placeholder="Enter yuor email">
+                    <input type="text" placeholder="Choose a Username">
+                    <input type="password" placeholder="Choose a Password">
+                    <button class="reg btn input-btn"><a href="#">Join</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="popup-log" id="popup-log">
+            <a href="#" class="popup-area"></a>
+            <div class="popup-body">
+                <div class="popup-content">
+                    <a href="#"><img class="close" src="./music-img/cancel-icon.png" alt=""></a>
+                    <h1 class="popup-h1">Login in</h1>
+                    <div class="border"></div>
+                    <input type="email" placeholder="Enter yuor email">
+                    <input type="password" placeholder="Enter a Password">
+                    <button class="reg btn input-btn"><a href="#">Login in</a></button>
+                </div>
+            </div>
         </div>
     </section>
 
