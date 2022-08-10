@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600&family=Oswald&family=Rubik&display=swap');
+
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Rubik', sans-serif;
+*/
+body{
+    background-color: #F5F5F5;
+    background-image: url(../music-img/background-line-reverse.png);
+    background-position-y: -249px !important;
+    font-family: 'Inter', sans-serif;
+}
+.about-artist h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    padding-top: 50px;
+}
+ul{
+    padding: 0;
+}
+.about-artist,.reviews{
+    padding: 0 5%;
+}
+.person-box-global{
+    display: flex;
+    padding-bottom: 50px;
+}
+.person-box{
+    padding-left: 50px;
+    width: 848px;
+}
+.person{
+    width: 263px;
+    background-image: url(../music-img/foto01.png);
+    background-repeat: no-repeat;
+}
+.person-info{
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    text-align: left;
+    padding-top: 280px;
+    padding-left: 5px;
+}
+.person-btn{
+    width: 263px;
+    height: 45px;
+    border: 1px solid rgba(0, 113, 99, 1);
+    border-radius: 10px;
+    background-color: rgba(0, 113, 99, 1);
+    padding: 0;
+}
+.person-btn a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 12px 65px;
+    transition: all .7s;
+}
+.person-btn:hover{
+    background-color: #fff;
+}
+.person-btn a:hover{
+    color:rgba(0, 113, 99, 1);
+}
+.person-nav ul{
+    display: flex;
+
+}
+.person-nav li a{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    padding-right: 43px;
+    
+}
+li:hover hr{
+    border-color: rgb(13, 143, 13);
+    visibility: visible;
+    opacity: 1;
+}
+.info-box{
+    width: 848px;
+    box-sizing: border-box;
+    border: 1px solid #D6D0C1;
+    border-radius: 5px;
+    padding: 30px 20px;
+}
+span{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(166, 124, 82, 1);
+}
+.sec{
+    padding: 10px 0px;
+}
+.info-box-border{
+    border-bottom: 1px solid #D6D0C1;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.txt,.hq,.mix{
+    padding: 10px 30px;
+}
+.txt{
+    background-image: url(../music-img/check-grey-icon.png);
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    color: #D6D0C1;
+}
+.hq,.mix{
+    background-image: url(../music-img/check-green-icon.png);
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+}
+.btn-checkout{
+    width: 165px;
+    height: 45px;
+    border: 1px solid rgba(0, 113, 99, 1);
+    border-radius: 5px;
+    transition: all .5s;
+}
+.btn-checkout a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color:rgba(0, 113, 99, 1);
+    margin-top: 15px;
+    padding: 13px 45px;
+    transition: all .5s;
+}
+.btn-checkout:hover{
+    background-color: rgba(166, 124, 82, 1);
+    border: .5px solid black;
+}
+.btn-checkout a:hover{
+    color: #fff;
+}
+
+
+.reviews-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+.reviews{
+    
+}
+h4{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-left: 26.5%;
+}
+.user-box{
+    width: 848px;
+    border: 1px solid #D6D0C1;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 20px 25px;
+}
+.user-wraper{
+    display: flex;
+}
+.user-icon{
+    width: 37px;
+    height: 37px;
+    background-color:rgba(0, 113, 99, 1);
+    border-radius: 50%;
+    padding: 9px 11px;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+}
+.user{
+    width: 180px;
+    margin-left: 10px;
+}
+.date{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(166, 124, 82, 1);
+}
+.user-title{
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 15px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 1);
+}
+.user-selector{
+    margin-left: 26.5%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
