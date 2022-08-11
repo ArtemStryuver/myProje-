@@ -12,6 +12,12 @@ body{
     background-image: url(../music-img/background-line.png);
     background-position-y: 120px;
 }
+ul{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+}
 header,section{
     margin: 0 5%;
 }
@@ -23,6 +29,9 @@ button{
     justify-content: space-around;
     padding-top: 30px;
     align-items: center;
+}
+.nav input{
+    padding-left: 15px;
 }
 .search{
     background-image: url(../music-img/search-icon.png);
@@ -44,14 +53,11 @@ button{
     background-color: white;
     border-radius: 10px;
     border-width: 1px;
-    transition: .4s;
-    margin-left: 10px;
-}
-.becom{
+    transition: all .4s;
     margin-left: 10px;
 }
 .find{
-    margin-right: 10px;
+    margin-left: 0;
 }
 .log a,.reg a{
     font-family: 'Inter', sans-serif;
@@ -104,7 +110,7 @@ button{
     font-size: 16px;
     text-decoration: none;
     color:rgba(166, 124, 82, 1) ;
-    padding: 12px 25px;
+    padding: 12px 30px;
     cursor: progress;
 }
 .becom{
@@ -116,7 +122,7 @@ button{
     font-size: 16px;
     text-decoration: none;
     color:rgba(0, 113, 99, 1);
-    padding: 12px 21px;
+    padding: 12px 26px;
     cursor: progress;
 }
 .find:hover{
@@ -141,9 +147,14 @@ button{
 .all-card{
     padding-bottom: 90px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     box-sizing: border-box;
 }
+.all-card-wraper-first,.all-card-wraper-second{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 h6 a{
     font-family: 'Inter', sans-serif;
     font-weight: 600;
@@ -159,6 +170,7 @@ h6{
     height: 277px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     transition: all .5s;
+    margin-right: 20px;
 }
 .guitar{
     background-image: url(../music-img/Guitar.png);
@@ -199,10 +211,12 @@ h6{
 .camera:hover{
     filter:drop-shadow(-14px 14px 15px rgba(0, 113, 99, 1));
     
-    margin-right: 5px;
+    margin-left: 5px;
 }
 .sinti{
     background-image: url(../music-img/synthesizer.png);
+    margin-left: 5px;
+    margin-right: 0;
 }
 .sinti:hover{
     filter:drop-shadow(-18px 18px 15px rgba(0, 113, 99, 1));
@@ -355,3 +369,195 @@ h5{
     left: 0;
 }
 
+
+
+
+@media screen and (max-width: 1110px){
+    .btn-all{
+        display: flex;
+    }
+    .logo{
+        margin-right: 8px;
+    }
+    .all-card{
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+    .card{
+        margin: 0;
+    }
+    .all-card-wraper-first{
+        padding-bottom: 30px;
+    }
+    .with-blur-back{
+        background-position-x: 150px;
+    }
+    .box{
+        background-position-x: 300px;
+    }
+    .icon{
+        padding-bottom: 50px;
+    }
+}
+@media  screen and (max-width: 992px){
+
+    
+    .nav{
+        flex-direction: column;
+    }
+    .logo{
+        margin-right: 0;
+        padding-bottom: 20px;
+    }
+    .search{
+        margin-bottom: 20px;
+    }
+    .log{
+        margin-left: 0;
+    }
+    .box{
+        padding-top: 0;
+        background-position-x: 200px;
+    }
+    .with-blur-back {
+        background-position-x: 50px;
+    }
+    .all-card{
+        padding-bottom: 0;
+    }
+    .icon {
+        padding-bottom: 35px;
+    }
+}
+@media screen and (max-width: 768px){
+    .link-box{
+        flex-direction: column;
+        margin-right: 10;
+    }
+    .logo-down{
+        padding-bottom: 0;
+    }
+    .box{
+        background-position-x: 135px;
+    }
+    .with-blur-back {
+        background-position-x: 0px;
+    }
+    .guitar:hover{
+        margin-left: 0;
+        filter:drop-shadow(0px 14px 15px rgba(0, 113, 99, 1));
+    }
+    .piano:hover{
+        margin-left: 0;
+        filter:drop-shadow(0px 14px 15px rgba(0, 113, 99, 1));
+    }
+    .camera:hover{
+        margin-left: 0;
+        filter:drop-shadow(0px 14px 15px rgba(0, 113, 99, 1));
+    }
+    .sinti:hover{
+        margin-right: 0;
+        filter:drop-shadow(0px 14px 15px rgba(0, 113, 99, 1));
+    }
+}
+@media screen and (max-width: 576px){
+    .title{
+        width: 320px;
+    }
+    .search{
+        width: 310px;
+        background-position-x: 265px;
+        padding-left: 10px;
+    }
+    .header,.section {
+        margin: 0 auto;
+    }
+    .with-blur-back{
+        background-position-x:-50px;
+    }
+    .box{
+        background-position-x: -60px;
+    }
+    .btn{
+        width: 135px;
+    }
+    .log a,.reg a{
+        padding: 12px 35px;
+    }
+    .find a{
+        padding: 12px 14px;
+    }
+    .becom a{
+        padding: 12px 10px;
+    }
+    .all-card{
+        align-items: center;
+
+    }
+    .all-card-wraper-first, .all-card-wraper-second {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+    }
+    .all-card-wraper-first{
+        padding-bottom: 0;
+    }
+    .card {
+        width: 264px;
+        height: 443px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        transition: all .5s;
+        margin-right: 0;
+        background-repeat: no-repeat;
+        background-size: 264px;
+        margin-bottom: 16px;
+    }
+    .all-card-wraper-first h6{
+        padding: 68% 0%;
+    }
+    h6 a{
+        padding: 210px 93px;
+    }
+    .all-card-wraper-second h6{
+        padding: 68% 0%;
+    }
+    .micro a{
+        padding: 210px 60px;
+    }
+    .camera a{
+        padding: 210px 84px;
+    }
+    .sinti a{
+        padding: 210px 64px;
+    }
+    .left-ul li{
+        text-align: center;
+    }
+    .popup-body{
+        padding: 0;
+    }
+    .popup-content{
+        width: 310px;
+        padding: 0;
+    }
+    .close{
+        left: 275px;
+        top: 15px;
+    }
+    .popup-content input{
+        width: 265px;
+        height: 40px;
+    }
+    .input-btn{
+        margin-bottom: 20px;
+    }
+}
+/*
+
+@media screen and (max-width: 1200px) мерием на 992-960.width: 960px
+@media  screen and (max-width: 992px) мерием на 768.width: 720-760px
+@media screen and (max-width: 768px) мерием на 576.width: 540px;
+@media screen and (max-width: 576px) мерием на 320.width: 320px;
+
+*/

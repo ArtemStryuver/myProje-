@@ -14,7 +14,7 @@ body{
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
     font-size: 36px;
-    padding-top: 50px;
+    padding-top: 41px;
 }
 ul{
     padding: 0;
@@ -28,7 +28,7 @@ ul{
 }
 .person-box{
     padding-left: 50px;
-    width: 848px;
+    
 }
 .person{
     width: 263px;
@@ -197,3 +197,86 @@ h4{
     padding-top: 20px;
     padding-bottom: 50px;
 }
+
+
+
+
+@media screen and (max-width: 1110px){
+    .about-artist{
+        padding: 0;
+    }
+    .info-box{
+        width: 600px;
+    }
+    .reviews h4{
+        margin-left: 0;
+    }
+    .user-selector{
+        margin-left: 0;
+    }
+} 
+@media  screen and (max-width: 992px){
+    .info-box{
+        width: 315px;
+    }
+    .user-box{
+        width: 625px;
+    }
+}
+@media screen and (max-width: 768px){
+    .about-artist h2{
+        padding-top: 0;
+    }
+    .person-box {
+        padding-left: 25px;
+    }
+    .person-nav li a{
+        padding-right: 15px;
+    }
+    .info-box {
+        width: 235px;
+    }
+    .btn-checkout{
+        margin-left: 14px;
+    }
+    .user-box {
+        width: 465px;
+    }
+    .link-box{
+        margin-right: 0;
+    }
+    .logo-down{
+        margin-right: 40px;
+    }
+
+}
+@media screen and (max-width: 576px){
+    .person-box-global{
+        flex-direction: column;
+        align-items: center;
+    }
+    .reviews-box{
+        align-items: center;
+    }
+    .person-box {
+        padding-left: 0px;
+    }
+    .btn-checkout{
+        margin-top: 15px;
+    }
+    .user-box{
+        width: 260px;
+    }
+    .left-ul li a{
+        padding: 1px;
+    }
+
+}
+/*
+
+@media screen and (max-width: 1200px) мерием на 992-960.width: 960px
+@media  screen and (max-width: 992px) мерием на 768.width: 720-760px
+@media screen and (max-width: 768px) мерием на 576.width: 540px;
+@media screen and (max-width: 576px) мерием на 320.width: 320px;
+
+*/
